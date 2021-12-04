@@ -23,6 +23,33 @@ Existen muchas clasificaciones, sin embargo una de las más usadas es la que cla
 5.  Radiadores infrarrojos
 6.  Dispositivos de cambio de estado
 
-Esquema 
+-- Esquema -- 
 
 [![144663210-ebafd3d1-2ded-43ed-899c-532ff14702b1.png](https://i.postimg.cc/V6LDsWTw/144663210-ebafd3d1-2ded-43ed-899c-532ff14702b1.png)](https://postimg.cc/XZmwQd41)
+
+-- Diagrama De Conexion -- 
+
+[![144663289-df008797-e99d-4f7f-94a0-84b14f659197.png](https://i.postimg.cc/W1wy2z3M/144663289-df008797-e99d-4f7f-94a0-84b14f659197.png)](https://postimg.cc/Bjtppq26)
+
+Codigo 
+
+
+import machine
+import onewire
+import ds18x20
+import time
+
+pin_modulo = machine.Pin(26)
+sensor = ds18x20.DS18X20(onewire.OneWire(pin_modulo))
+
+roms = sensor.scan()
+print("Buscando sensor!!")
+
+while True:
+    sensor.convert_temp()
+    time.sleep_ms(750)
+    for rom in roms:
+        print(sensor.read_temp(rom))
+    time.sleep(2)
+
+

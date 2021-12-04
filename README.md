@@ -1,4 +1,4 @@
-Sensor De Temperatura
+-- Sensor De Temperatura --
 
 Los sensores de temperatura son componentes eléctricos y electrónicos que, en calidad de sensores, 
 permiten medir la temperatura mediante una señal eléctrica determinada. Dicha señal puede enviarse 

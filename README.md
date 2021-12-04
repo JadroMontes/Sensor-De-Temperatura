@@ -16,10 +16,13 @@ cambio de temperatura mediante el cambio de otra magnitud o propiedad física.
 
 Existen muchas clasificaciones, sin embargo una de las más usadas es la que clasifica a este tipo de sensores en seis categorías, estas son:
 
-Sensores de temperatura termopar
-Dispositivos de temperatura resistivos RTD y termistores
-Dispositivos bimetálicos
-Dispositivos de dilatación de líquido
-Radiadores infrarrojos
-Dispositivos de cambio de estado
+1.  Sensores de temperatura termopar
+2.  Dispositivos de temperatura resistivos RTD y termistores
+3.  Dispositivos bimetálicos
+4.  Dispositivos de dilatación de líquido
+5.  Radiadores infrarrojos
+6.  Dispositivos de cambio de estado
 
+Esquema 
+
+[![144663210-ebafd3d1-2ded-43ed-899c-532ff14702b1.png](https://i.postimg.cc/V6LDsWTw/144663210-ebafd3d1-2ded-43ed-899c-532ff14702b1.png)](https://postimg.cc/XZmwQd41)

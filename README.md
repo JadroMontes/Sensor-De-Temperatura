@@ -6,6 +6,7 @@ directamente o mediante el cambio de la resistencia. También se denominan senso
 Un sensor de temperatura se usa, entre otras aplicaciones, para el control de circuitos. Los sensores de temperatura también se llaman sensores de calor,
 detectores de calor o sondas térmicas.
 
+[![img-0019.jpg](https://i.postimg.cc/zvGMMr5n/img-0019.jpg)](https://postimg.cc/62FY2F83)
 
 
 ¿Qué materiales detecta un sensor de temperatura?
